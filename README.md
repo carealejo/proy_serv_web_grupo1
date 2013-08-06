@@ -20,3 +20,12 @@ Para obtener el repositorio:
 - git push origin master
 
 Despues realizar el Pull Request por la pagina de GitHub.
+
+#Rebase del repositorio
+
+Para realizar el rebase de los repositorios se realizan los siguentes comandos:
+
+- git remote add "Nombre" "direccionrepo" ( Agrega el link al repositorio oficial ) Nota: solo se realiza  una vez.
+- git fetch "Nombre" ( Traer cambios del repositorio oficial )
+- git rebase "Nombre"/"Rama" ( Aplicar cambios al repositorio local )
+- git push origin master ( Aplicar los cambios al repositorio en GitHub ) 
